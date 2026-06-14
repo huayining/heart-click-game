@@ -35,12 +35,29 @@ http://10.193.5.46:8082
 3. 在 GitHub 仓库 Settings -> Pages 中选择 `Deploy from a branch`，分支选 `main`，目录选 `/root`。
 4. 保存后等待 GitHub 生成访问链接。
 
+## Hidden Love Mode
+
+游戏右上角有一个小爱心锁按钮，点击后输入密码：
+
+```text
+5201314
+```
+
+密码正确后会进入固定照片告白模式。这个模式会按顺序播放 `assets/love-photos/` 里的 20 张照片，底部持续飘出爱心，最后出现大爱心爆开并显示：
+
+```text
+我爱你，杨芳
+```
+
+这些照片会随公开 GitHub Pages 网页一起公开加载，分享链接给朋友后，对方输入密码也能看到同一组照片。
+
 ## Outputs
 
 - `assets/sprites/heart-idle.png`
 - `assets/sprites/heart-pop.png`
 - `assets/sprites/sparkle-loop.png`
 - `assets/sprites/score-pop.png`
+- `assets/love-photos/love-photo-01.jpg` 到 `assets/love-photos/love-photo-20.jpg`
 - `exports/gameplay-demo.gif`
 
 ## License
